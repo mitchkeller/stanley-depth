@@ -3,13 +3,26 @@
 """
 sdepth_down.py
 
-Created by Mitch Keller on 2016-07-06.
+
+Copyright (c) 2014-2017 Mitchel T. Keller and Stephen J. Young.
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published
+by the Free Software Foundation, either version 3 of the License,
+or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
 Takes k-uniform hypergraphs (equivalently Cohen-Macaulay simplicial complexes of dimension k-1)
 and determines if the Stanley depth of S/I (where I is the associated Stanley-Reisner ideal) is k.
 If so, the hypergraph (in g6 format) is written out to the 'good' file. If not, it is written to the
 'bad' file. Does complementation so that input is only required up to n/2 and k/2.
-
-Copyright (c) 2014-2016 . All rights reserved.
 
 Command line arguments (in order):
 n - size of the universal set
